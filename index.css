@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(247, 231, 212);
+    
+}
+
+.navbar
+{
+    background-color: #23292e;
+    position: fixed;
+    top: 0;
+     left: 0;
+    right: 0;
+     z-index: 999;
+
+    
+}
+
+.navText
+{
+    color: white !important;
+}
+
+.nav-item
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logoF
+{
+    width: 25px;
+    height: 25px; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navText:hover
+{
+    color: #ffd6a3  !important;
+    
+}
