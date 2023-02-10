@@ -1,65 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Bitter & Brew</title>
-    
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script type="application/javascript" src="jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="index.css"/>
-    <script type="application/javascript" src="index.js"></script>
-  
-   
-<!--
-Espresso Yourself
-Bitter & Brew
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Progetto</title>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script type="application/javascript" src="jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="index.css" />
+  <script type="application/javascript" src="index.js"></script>
+
+  <!--
 https://it.wix.com/website-template/view/html/1899?originUrl=https%3A%2F%2Fit.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Frestaurants-food%2Fbar-club&tpClick=view_button&esi=b6d60c62-e253-4412-8be4-0ca7d5e33c36
 -->
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a  class="navbar-brand" href="#">
-        <img src="img/tempLogo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-      </a>
+      <a id="logo" class="navbar-brand" href="#title">B&B</a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul   class="navText navbar-nav ">
+        <ul class="navText navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link active navText"  aria-current="page" href="#">HOME</a>
+            <a class="nav-link active navText" aria-current="page" href="#title">HOME</a>
           </li>
-        
+
           <li class="nav-item">
-            <a class="nav-link active navText"  aria-current="page" href="#">ABOUT US</a>
+            <a class="nav-link active navText" aria-current="page" href="#about">ABOUT US</a>
           </li>
-          
+
           <li class="nav-item">
-            <a class="nav-link active navText"  aria-current="page" href="#">MENU</a>
+            <a class="nav-link active navText" aria-current="page" href="#">MENU</a>
           </li>
-       
+
           <li class="nav-item">
-            <a class="nav-link active navText"  aria-current="page" href="#">RESERVATOINS</a>
+            <a class="nav-link active navText" aria-current="page" href="#">RESERVATOINS</a>
           </li>
-          
+
         </ul>
       </div>
-      
-        <span class="navbar-text">
-          <a target="_blank" href="https://it-it.facebook.com/"><img src="img/faceLogo.png" class="logoF" alt=""></a>
-          <a target="_blank" href="https://www.instagram.com/"><img src="img/instaLogo.png" class="logoF" alt=""></a>
-          <a target="_blank" href="https://www.tripadvisor.it/"><img src="img/tripLogo.png"  class="logoF" alt=""></a> 
-        </span>
-      </div>
+      <span class="navbar-text">
+        <a target="_blank" href="https://it-it.facebook.com/"><img src="img/faceLogo.png" class="logoF" alt=""></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="img/instaLogo.png" class="logoF" alt=""></a>
+        <a target="_blank" href="https://www.tripadvisor.it/"><img src="img/tripLogo.png" class="logoF" alt=""></a>
+      </span>
+    </div>
   </nav>
 
+  <!--TITLE-->
+  <center>
+    <div id="title">
+      <br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br>
+      <h1>BITTER & BREW</h1>
+      <h2>COCKTAIL BAR</h2>
+    </div>
+  </center>
 
-  <div>
+  <!--ABOUT US SECTION-->
 
+  <div class="tit">
+    <br><br>
+    <h1 id="tAbout" class="section">ABOUT US</h1>
   </div>
 
+  <div id="about">
+    <div class="row1">
+      <div id="AU">
+        <pre>
+
+
+          <b>Welcome to Bitter & Brew</b>, where we offer a sophisticated and luxurious 
+          atmosphere to enjoy expertly crafted cocktails. 
+          Our bar is the perfect place to unwind after a long day 
+          or celebrate a special occasion with friends and loved ones.
+          Our expert mixologists use only the finest ingredients and innovative 
+          techniques to create selection of classic and contemporary cocktails, 
+          each with its own unique flavor and style. From traditional favorites 
+          like martinis and Manhattans, to one-of-a-kind creations that 
+          showcase of mixology, we have something to suit every taste.
+          For those looking for a night of entertainment, Bitter & Brew 
+          also features live music and other performances, 
+          sure add to the lively atmosphere and make your experience one to remember.
+          Join us at Bitter & Brew for a cocktail experience unlike any other. <b>Cheers!</b>
+          </pre>
+      </div>
+      <!--div for the image-->
+      <div ></div>
+    </div>
+
+      <div class="row2">
+
+        <div id="f1"></div>
+        <div id="f2"></div>
+        <div id="f3"></div>
+      </div>
+      
+        <div class="sMap">
+        <center>
+          <br><br>
+        <H1>JOIN THE CLUB AT</H1>
+        <h2>BITTER & BREW </h2>
+      </center>
+        </div>
+      
+      
+
 </body>
+
 </html>
